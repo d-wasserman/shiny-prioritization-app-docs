@@ -1,0 +1,36 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 1,
+                "PedConnect_SCORE": 1.0,
+                "LSBikConnect_SCORE": 2.5,
+                "Safety_SCORE": 5.0,
+                "Other_Field": "Downtown Segment"
+            },
+            "geometry": {"type": "LineString", "coordinates": [[-111.95, 40.67], [-111.95, 40.68]]}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 2,
+                "PedConnect_SCORE": 3.0,
+                "LSBikConnect_SCORE": 1.5,
+                "Safety_SCORE": 2.0,
+                "Other_Field": "Suburban Loop"
+            },
+            "geometry": {"type": "LineString", "coordinates": [[-112.0, 40.67], [-112.0, 40.68]]}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 3,
+                "PedConnect_SCORE": 5.0,
+                "LSBikConnect_SCORE": 5.0,
+                "Safety_SCORE": 1.0,
+                "Other_Field": "Industrial Corridor"
+            },
+            "geometry": {"type": "LineString", "coordinates": [[-112.05, 40.67], [-112.05, 40.68]]}
+        }]}
