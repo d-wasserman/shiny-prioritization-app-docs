@@ -14,7 +14,6 @@ A [Shiny for Python](https://shiny.posit.co/py/) web app for interactive geospat
 - **Multiple color ramps** — Viridis, Plasma, Inferno, Magma, Cividis, YlOrRd, YlGnBu, RdYlGn, Blues, Reds, Cool-Warm
 - **Auto-fit viewport** — map zooms to the bounding box of the loaded data
 - **Download result** — export scored GeoJSON with the `Prioritization` field included
-- **Built-in sample data** — loads a Salt Lake Valley example on startup; no upload required to explore
 
 ---
 
@@ -46,7 +45,7 @@ Then open `http://127.0.0.1:8000` in your browser.
 
 ## Usage
 
-1. **Upload a GeoJSON file** (or use the built-in sample data).
+1. **Upload a GeoJSON file**.
 2. **Adjust the weight sliders** for each `_SCORE` field — weights are normalized to sum to 1 automatically.
 3. **Configure the map display** using the controls bar at the bottom:
    - *Classes* — number of quantile breaks (2–10)
@@ -72,16 +71,6 @@ The app auto-detects prioritization inputs from your GeoJSON properties. Any col
 ```
 
 The output adds a `Prioritization` field — the normalized weighted sum of all `_SCORE` columns.
-
----
-
-## Sample Data
-
-| File | Description |
-|---|---|
-| `data/Sample.geojson` | Built-in 3-feature line example (Salt Lake Valley) |
-| `data/WestValleyATPNetwork.geojson` | West Valley active transportation network |
-| `data/BSTPrioritization_122225.geojson` | ~6.4 MB polygon dataset for stress testing |
 
 ---
 
