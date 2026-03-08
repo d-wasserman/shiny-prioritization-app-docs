@@ -2,7 +2,7 @@
 
 A [Shiny for Python](https://shiny.posit.co/py/) web app for interactive geospatial prioritization. Upload a GeoJSON file, adjust weights for any scoring fields, and instantly see a color-coded map of prioritized features. Download the result with the calculated score embedded.
 
-![Demo](assets/Prioritization_Shiny_App_Demo.gif)
+![Demo](assets/Prioritization_Shiny_App_Demo_GIF.gif)
 
 ---
 
