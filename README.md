@@ -89,4 +89,4 @@ The output adds a `Prioritization` field — the normalized weighted sum of all 
 
 ## License
 
-GNU
+AGPL-3.0 license
